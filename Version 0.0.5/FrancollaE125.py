@@ -63,8 +63,6 @@ king = trtl.Turtle()
 king.append(pieces_list)
 
 
-
-
 #####-Game Config-#####
 
 
