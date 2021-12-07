@@ -7,7 +7,7 @@ PLTW Lesson 1.2.5
 #Import Turtle library for drawing and display functions
 import turtle as trtl
 
-#Import created chessboard module for drawing a chessboard
+#Import abstracted chessboard module for drawing a chessboard
 import chessboard as chessboard
 
 
