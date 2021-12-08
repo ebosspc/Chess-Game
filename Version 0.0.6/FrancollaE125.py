@@ -12,6 +12,18 @@ import chessboard as chessboard
 
 
 #####-Game Config-#####
+#Define the chess board's initial attributes
+number_of_sides = 4
+number_of_squares = 64
+number_of_squares_on_side = number_of_squares / 8
+length_of_side = 520
+length_of_square = length_of_side / 8
+
+#Define piece attributes
+pieces_fillcolor = "black"
+pieces_pencolor = "black"
+pieces_speed = 0
+
 #Define variables containing the amounts of pieces
 total_num_pieces = 32
 num_white_pieces = 16
@@ -47,10 +59,46 @@ total_num_kings = 2
 num_white_kings = 1
 num_black_kings = 1
 
-#Define piece attributes
-pieces_fillcolor = "black"
-pieces_pencolor = "black"
-pieces_speed = 0
+#Define coordinates for each of the 64 squares
+#Define a1's coordinates
+a1_xcor = -100
+a1_ycor = -100
+a1_cors = a1_xcor, a1_ycor
+
+#Define a2's coordinates
+a2_xcor = a1_xcor + length_of_square
+a2_ycor = a1_ycor + 0
+a2_cors = a2_xcor, a2_ycor
+
+#Define a3's coordinates
+a3_xcor = a2_xcor + length_of_square
+a3_ycor = a2_ycor + 0
+a3_cors = a3_xcor, a3_ycor
+
+#Define a4's coordinates
+a4_xcor = a3_xcor + length_of_square
+a4_ycor = a3_ycor + 0
+a4_cors = a4_xcor, a4_ycor
+
+#Define a5's coordinates
+a5_xcor = a4_xcor + length_of_square
+a5_ycor = a4_ycor + 0
+a5_cors = a5_xcor, a5_ycor
+
+#Define a6's coordinates
+a6_xcor = a5_xcor + length_of_square
+a6_ycor = a5_ycor + 0
+a6_cors = a6_xcor, a6_ycor
+
+#Define a7's coordinates
+a7_xcor = a6_xcor + length_of_square
+a7_ycor = a6_ycor + 0
+a7_cors = a7_xcor, a7_ycor
+
+#Define a8's coordinates
+a8_xcor = a7_xcor + length_of_square
+a8_ycor = a7_ycor + 0
+a8_cors = a8_xcor, a8_ycor
 
 #Define an empty list to store each of the chess piece turtles in
 pieces_list = []
