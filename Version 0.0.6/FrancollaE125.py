@@ -47,6 +47,7 @@ total_num_kings = 2
 num_white_kings = 1
 num_black_kings = 1
 
+#Define piece attributes
 pieces_fillcolor = "black"
 pieces_pencolor = "black"
 pieces_speed = 0
