@@ -494,6 +494,27 @@ white_rook_2.goto(h1_cors)
 black_rook_1.goto(a8_cors)
 black_rook_2.goto(h8_cors)
 
+#Send each knight to its starting location
+white_knight_1.goto(b1_cors)
+white_knight_2.goto(g1_cors)
+black_knight_1.goto(b8_cors)
+black_knight_2.goto(g8_cors)
+
+#Send each bishop to its starting location
+white_bishop_1.goto(c1_cors)
+white_bishop_2.goto(f1_cors)
+black_bishop_1.goto(c8_cors)
+black_bishop_2.goto(f8_cors)
+
+#Send each queen to its starting location
+white_queen.goto(d1_cors)
+black_queen.goto(d8_cors)
+
+#Send each king to its starting location
+white_king.goto(e1_cors)
+black_king.goto(e8_cors)
+
+
 #####-Game-#####
 
 
