@@ -488,6 +488,11 @@ black_pawn_6.goto(f7_cors)
 black_pawn_7.goto(g7_cors)
 black_pawn_8.goto(h7_cors)
 
+#Send each rook to its starting location
+white_rook_1.goto(a1_cors)
+white_rook_2.goto(h1_cors)
+black_rook_1.goto(a8_cors)
+black_rook_2.goto(h8_cors)
 
 #####-Game-#####
 
