@@ -61,8 +61,8 @@ num_black_kings = 1
 
 #Define coordinates for each of the 64 squares
 #Define a1's coordinates
-a1_xcor = -100
-a1_ycor = -100
+a1_xcor = -260 + 0.5 * length_of_square
+a1_ycor = -260 + 0.5 * length_of_square
 a1_cors = a1_xcor, a1_ycor
 
 #Define a2's coordinates
