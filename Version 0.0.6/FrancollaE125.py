@@ -463,7 +463,7 @@ pieces_list.append(white_king)
 black_king = trtl.Turtle()
 pieces_list.append(black_king)
 
-#Set all pieces to a black fill color and prevent them from leaving tracers behind when they move
+#Set all pieces to a black fill color and prevent them from leaving tracers behind when they move or be visible as others are being created
 for i in range(total_num_pieces):
     pieces_list[i].hideturtle()
     pieces_list[i].penup()
@@ -515,9 +515,10 @@ black_queen.goto(d8_cors)
 white_king.goto(e1_cors)
 black_king.goto(e8_cors)
 
+#For loop that shows the pieces after they have been moved
 for i in range(total_num_pieces):
     pieces_list[i].showturtle()
-    
+
 #####-Game-#####
 
 
