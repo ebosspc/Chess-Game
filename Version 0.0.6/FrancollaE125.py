@@ -470,6 +470,16 @@ for i in range(total_num_pieces):
     pieces_list[i].pencolor(pieces_pencolor)
     pieces_list[i].speed(pieces_speed)
 
+#Send each piece pawn to its starting location
+white_pawn_1.goto(a2_cors)
+white_pawn_2.goto(b2_cors)
+white_pawn_3.goto(c2_cors)
+white_pawn_4.goto(d2_cors)
+white_pawn_5.goto(e2_cors)
+white_pawn_6.goto(f2_cors)
+white_pawn_7.goto(g2_cors)
+white_pawn_8.goto(h2_cors)
+
 
 #####-Game-#####
 
