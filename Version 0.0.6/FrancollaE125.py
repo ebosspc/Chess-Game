@@ -11,6 +11,9 @@ import turtle as trtl
 import chessboard as chessboard
 
 
+#####-Game Config-#####
+
+
 #####-Setup-#####
 #Draw the full chessboard with labels
 chessboard.draw_chessboard()
@@ -106,9 +109,6 @@ for i in range(total_num_pieces):
     pieces_list[i].fillcolor(pieces_fillcolor)
     pieces_list[i].pencolor(pieces_pencolor)
     pieces_list[i].speed(pieces_speed)
-
-
-#####-Game Config-#####
 
 
 #####-Game-#####
