@@ -465,6 +465,7 @@ pieces_list.append(black_king)
 
 #Set all pieces to a black fill color and prevent them from leaving tracers behind when they move
 for i in range(total_num_pieces):
+    pieces_list[i].hideturtle()
     pieces_list[i].penup()
     pieces_list[i].fillcolor(pieces_fillcolor)
     pieces_list[i].pencolor(pieces_pencolor)
@@ -514,7 +515,9 @@ black_queen.goto(d8_cors)
 white_king.goto(e1_cors)
 black_king.goto(e8_cors)
 
-
+for i in range(total_num_pieces):
+    pieces_list[i].showturtle()
+    
 #####-Game-#####
 
 
