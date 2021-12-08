@@ -300,6 +300,46 @@ f8_xcor = f7_xcor + 0
 f8_ycor = f7_ycor + length_of_square
 f8_cors = f8_xcor, f8_ycor
 
+#Define g1's coordinates
+g1_xor = f1_xcor + length_of_square
+g1_ycor = f1_ycor + 0
+g1_cors = g1_xcor, g1_ycor
+
+#Define g2's coordinates
+g2_xcor = g1_xcor + 0
+g2_ycor = g1_ycor + length_of_square
+g2_cors = g2_xcor, g2_ycor
+
+#Define g3's coordinates
+g3_xcor = g2_xcor + 0
+g3_ycor = g2_ycor + length_of_square
+g3_cors = g3_xcor, g3_ycor
+
+#Define g4's coordinates
+g4_xcor = g3_xcor + 0
+g4_ycor = g3_ycor + length_of_square
+g4_cors = g4_xcor, g4_ycor
+
+#Define g5's coordinates
+g5_xcor = g4_xcor + 0
+g5_ycor = g4_ycor + length_of_square
+g5_cors = g5_xcor, g5_ycor
+
+#Define g6's coordinates
+g6_xcor = g5_xcor + 0
+g6_ycor = g5_ycor + length_of_square
+g6_cors = g6_xcor, g6_ycor
+
+#Define g7's coordinates
+g7_xcor = g6_xcor + 0
+g7_ycor = g6_ycor + length_of_square
+g7_cors = g7_xcor, g7_ycor
+
+#Define g8's coordinates
+g8_xcor = g7_xcor + 0
+g8_ycor = g7_ycor + length_of_square
+g8_cors = g8_xcor, g8_ycor
+
 #Define an empty list to store each of the chess piece turtles in
 pieces_list = []
 
