@@ -14,6 +14,27 @@ import chessboard as chessboard
 #####-Game Config-#####
 #Define variables that contain attributes of the chess board
 total_num_pieces = 32
+num_white_pieces = 16
+num_black_pieces = 16
+total_num_pawns = 16
+num_white_pawns = 8
+num_black_pawns = 8
+total_num_rooks = 4
+num_white_rooks = 2
+num_black_rooks = 2
+total_num_knights = 4
+num_white_knights = 2
+num_black_knights = 2
+total_num_bishops = 4
+num_white_bishops = 2
+num_black_bishops = 2
+total_num_queens = 2
+num_white_queens = 1
+num_black_queens = 1
+total_num_kings = 2
+num_white_kings = 1
+num_black_kings = 1
+
 pieces_fillcolor = "black"
 pieces_pencolor = "black"
 pieces_speed = 0
