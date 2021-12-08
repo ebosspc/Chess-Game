@@ -12,12 +12,6 @@ import chessboard as chessboard
 
 
 #####-Game Config-#####
-
-
-#####-Setup-#####
-#Draw the full chessboard with labels
-chessboard.draw_chessboard()
-
 #Define variables that contain attributes of the chess board
 total_num_pieces = 32
 pieces_fillcolor = "black"
@@ -26,6 +20,10 @@ pieces_speed = 0
 
 #Define an empty list to store each of the chess piece turtles in
 pieces_list = []
+
+#####-Setup-#####
+#Draw the full chessboard with labels
+chessboard.draw_chessboard()
 
 #Create a turtle for each pawn and add it to the pieces master list
 white_pawn_1 = trtl.Turtle()
