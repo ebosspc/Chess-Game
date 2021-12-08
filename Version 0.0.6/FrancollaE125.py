@@ -66,79 +66,119 @@ a1_ycor = -100
 a1_cors = a1_xcor, a1_ycor
 
 #Define a2's coordinates
-a2_xcor = a1_xcor + length_of_square
-a2_ycor = a1_ycor + 0
+a2_xcor = a1_xcor + 0
+a2_ycor = a1_ycor + length_of_square
 a2_cors = a2_xcor, a2_ycor
 
 #Define a3's coordinates
-a3_xcor = a2_xcor + length_of_square
-a3_ycor = a2_ycor + 0
+a3_xcor = a2_xcor + 0
+a3_ycor = a2_ycor + length_of_square
 a3_cors = a3_xcor, a3_ycor
 
 #Define a4's coordinates
-a4_xcor = a3_xcor + length_of_square
-a4_ycor = a3_ycor + 0
+a4_xcor = a3_xcor + 0
+a4_ycor = a3_ycor + length_of_square
 a4_cors = a4_xcor, a4_ycor
 
 #Define a5's coordinates
-a5_xcor = a4_xcor + length_of_square
-a5_ycor = a4_ycor + 0
+a5_xcor = a4_xcor + 0
+a5_ycor = a4_ycor + length_of_square
 a5_cors = a5_xcor, a5_ycor
 
 #Define a6's coordinates
-a6_xcor = a5_xcor + length_of_square
-a6_ycor = a5_ycor + 0
+a6_xcor = a5_xcor + 0
+a6_ycor = a5_ycor + length_of_square
 a6_cors = a6_xcor, a6_ycor
 
 #Define a7's coordinates
-a7_xcor = a6_xcor + length_of_square
-a7_ycor = a6_ycor + 0
+a7_xcor = a6_xcor + 0
+a7_ycor = a6_ycor + length_of_square
 a7_cors = a7_xcor, a7_ycor
 
 #Define a8's coordinates
-a8_xcor = a7_xcor + length_of_square
-a8_ycor = a7_ycor + 0
+a8_xcor = a7_xcor + 0
+a8_ycor = a7_ycor + length_of_square
 a8_cors = a8_xcor, a8_ycor
 
 #Define b1's coordinates
-b1_xcor = a1_xcor + 0
-b1_ycor = a1_ycor + length_of_square
+b1_xcor = a1_xcor + length_of_square
+b1_ycor = a1_ycor + 0
 b1_cors = b1_xcor, b1_ycor
 
 #Define b2's coordinates
-b2_xcor = b1_xcor + length_of_square
-b2_ycor = b1_ycor + 0
+b2_xcor = b1_xcor + 0
+b2_ycor = b1_ycor + length_of_square
 b2_cors = b2_xcor, b2_ycor
 
 #Define b3's coordinates
-b3_xcor = b2_xcor + length_of_square
-b3_ycor = b2_ycor + 0
+b3_xcor = b2_xcor + 0
+b3_ycor = b2_ycor + length_of_square
 b3_cors = b3_xcor, b3_ycor
 
 #Define b4's coordinates
-b4_xcor = b3_xcor + length_of_square
-b4_ycor = b3_ycor + 0
+b4_xcor = b3_xcor + 0
+b4_ycor = b3_ycor + length_of_square
 b4_cors = b4_xcor, b4_ycor
 
 #Define b5's coordinates
-b5_xcor = b4_xcor + length_of_square
-b5_ycor = b4_ycor + 0
+b5_xcor = b4_xcor + 0
+b5_ycor = b4_ycor + length_of_square
 b5_cors = b5_xcor, b5_ycor
 
 #Define b6's coordinates
-b6_xcor = b5_xcor + length_of_square
-b6_ycor = b5_ycor + 0
+b6_xcor = b5_xcor + 0
+b6_ycor = b5_ycor + length_of_square
 b6_cors = b6_xcor, b6_ycor
 
 #Define b7's coordinates
-b7_xcor = b6_xcor + length_of_square
-b7_ycor = b6_ycor + 0
+b7_xcor = b6_xcor + 0
+b7_ycor = b6_ycor + length_of_square
 b7_cors = b7_xcor, b7_ycor
 
 #Define b8's coordinates
-b8_xcor = b7_xcor + length_of_square
-b8_ycor = b7_ycor + 0
+b8_xcor = b7_xcor + 0
+b8_ycor = b7_ycor + length_of_square
 b8_cors = b8_xcor, b8_ycor
+
+#Define c1's coordinates
+c1_xcor = b1_xcor + length_of_square
+c1_ycor = b1_ycor + 0
+c1_cors = c1_xcor, c1_ycor
+
+#Define c2's coordinates
+c2_xcor = c1_xcor + 0
+c2_ycor = c1_ycor + length_of_square
+c2_cors = c2_xcor, c2_ycor
+
+#Define c3's coordinates
+c3_xcor = c2_xcor + 0
+c3_ycor = c2_ycor + length_of_square
+c3_cors = c3_xcor, c3_ycor
+
+#Define c4's coordinates
+c4_xcor = c3_xcor + 0
+c4_ycor = c3_ycor + length_of_square
+c4_cors = c4_xcor, c4_ycor
+
+#Define c5's coordinates
+c5_xcor = c4_xcor + 0
+c5_ycor = c4_ycor + length_of_square
+c5_cors = c5_xcor, c5_ycor
+
+#Define c6's coordinates
+c6_xcor = c5_xcor + 0
+c6_ycor = c5_ycor + length_of_square
+c6_cors = c6_xcor, c6_ycor
+
+#Define c7's coordinates
+c7_xcor = c6_xcor + 0
+c7_ycor = c6_ycor + length_of_square
+c7_cors = c7_xcor, c7_ycor
+
+#Define c8's coordinates
+c8_xcor = c7_xcor + 0
+c8_ycor = c7_ycor + length_of_square
+c8_cors = c8_xcor, c8_ycor
 
 #Define an empty list to store each of the chess piece turtles in
 pieces_list = []
