@@ -301,7 +301,7 @@ f8_ycor = f7_ycor + length_of_square
 f8_cors = f8_xcor, f8_ycor
 
 #Define g1's coordinates
-g1_xor = f1_xcor + length_of_square
+g1_xcor = f1_xcor + length_of_square
 g1_ycor = f1_ycor + 0
 g1_cors = g1_xcor, g1_ycor
 
