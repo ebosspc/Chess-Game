@@ -1,5 +1,5 @@
 import turtle as trtl
-
+wn = trtl.Screen()
 e5_xcor = 0
 e5_ycor = 0
 e5_cors = e5_xcor, e5_ycor
@@ -14,6 +14,9 @@ test_turtle.goto(e5_cors)
 piece_on_e5 = 1
 piece_on_a1 = 0
 
+bishop_image = "blackbishop_2.gif"
+wn.addshape(bishop_image)
+test_turtle.shape(bishop_image)
 
 initial_input = input("On which square do you want to move a piece from?: ")
 if initial_input == "e5":
@@ -23,5 +26,9 @@ if initial_input == "e5":
             test_turtle.goto(a1_cors)
             piece_on_a1 = 1
 
-wn = trtl.Screen()
+
+
+
+
+
 wn.mainloop()

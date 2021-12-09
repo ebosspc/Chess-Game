@@ -60,7 +60,28 @@ import turtle as trtl
 #Import abstracted chessboard module for drawing a chessboard
 import chessboard as chessboard
 
+#Generate a screen for the game to diplay on
+wn = trtl.Screen()
+
 #####-Game Config-#####
+black_bishop_image = "black_bishop.gif"
+wn.addshape(black_bishop_image)
+
+white_king_image = "white_king.gif"
+wn.addshape(white_king_image)
+
+white_knight_image = "white_knight.gif"
+wn.addshape(white_knight_image)
+
+black_knight_image = "black_knight.gif"
+wn.addshape(black_knight_image)
+
+black_rook_image = "black_rook.gif"
+wn.addshape(black_rook_image)
+
+white_rook_image = "white_rook.gif"
+wn.addshape(white_rook_image)
+
 #Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
 developer_mode = 0
 
@@ -557,29 +578,37 @@ pieces_list.append(black_pawn_8)
 
 #Create a turtle for each rook and add it to the pieces master list
 white_rook_1 = trtl.Turtle()
+white_rook_1.shape(white_rook_image)
 white_rook_1.hideturtle()
 pieces_list.append(white_rook_1)
 white_rook_2 = trtl.Turtle()
+white_rook_2.shape(white_rook_image)
 white_rook_2.hideturtle()
 pieces_list.append(white_rook_2)
 black_rook_1 = trtl.Turtle()
+black_rook_1.shape(black_rook_image)
 black_rook_1.hideturtle()
 pieces_list.append(black_rook_1)
 black_rook_2 = trtl.Turtle()
+black_rook_2.shape(black_rook_image)
 black_rook_2.hideturtle()
 pieces_list.append(black_rook_2)
 
 #Create a turtle for each knight and add it to the pieces master list
 white_knight_1 = trtl.Turtle()
+white_knight_1.shape(white_knight_image)
 white_knight_1.hideturtle()
 pieces_list.append(white_knight_1)
 white_knight_2 = trtl.Turtle()
+white_knight_2.shape(white_knight_image)
 white_knight_2.hideturtle()
 pieces_list.append(white_knight_2)
 black_knight_1 = trtl.Turtle()
+black_knight_1.shape(black_knight_image)
 black_knight_1.hideturtle()
 pieces_list.append(black_knight_1)
 black_knight_2 = trtl.Turtle()
+black_knight_2.shape(black_knight_image)
 black_knight_2.hideturtle()
 pieces_list.append(black_knight_2)
 
@@ -591,9 +620,11 @@ white_bishop_2 = trtl.Turtle()
 white_bishop_2.hideturtle()
 pieces_list.append(white_bishop_2)
 black_bishop_1 = trtl.Turtle()
+black_bishop_1.shape(black_bishop_image)
 black_bishop_1.hideturtle()
 pieces_list.append(black_bishop_1)
 black_bishop_2 = trtl.Turtle()
+black_bishop_2.shape(black_bishop_image)
 black_bishop_2.hideturtle()
 pieces_list.append(black_bishop_2)
 
@@ -607,6 +638,7 @@ pieces_list.append(black_queen)
 
 #Create a turtle for the kings and add it to the pieces master list
 white_king = trtl.Turtle()
+white_king.shape(white_king_image)
 white_king.hideturtle()
 pieces_list.append(white_king)
 black_king = trtl.Turtle()
@@ -672,8 +704,7 @@ for i in range(total_num_pieces):
 
 
 #####-Screen-#####
-#Generate a screen for the game to diplay on
-wn = trtl.Screen()
+
 
 #Keep the display running and persistent
 wn.mainloop()
