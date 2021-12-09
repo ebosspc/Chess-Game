@@ -60,45 +60,45 @@ import turtle as trtl
 #Import abstracted chessboard module for drawing a chessboard
 import chessboard as chessboard
 
+#####-Game Config-#####
 #Generate a screen for the game to diplay on
 wn = trtl.Screen()
 
-#####-Game Config-#####
+#Import gifs that will be used as the pawns' shapes
+white_pawn_image = "white_pawn.gif"
+wn.addshape(white_pawn_image)
 black_pawn_image = "black_pawn.gif"
 wn.addshape(black_pawn_image)
 
-black_queen_image = "black_queen.gif"
-wn.addshape(black_queen_image)
-
-black_king_image = "black_king.gif"
-wn.addshape(black_king_image)
-
-black_bishop_image = "black_bishop.gif"
-wn.addshape(black_bishop_image)
-
-white_king_image = "white_king.gif"
-wn.addshape(white_king_image)
-
-white_knight_image = "white_knight.gif"
-wn.addshape(white_knight_image)
-
-black_knight_image = "black_knight.gif"
-wn.addshape(black_knight_image)
-
+#Import gifs that will be used as the rooks' shapes
+white_rook_image = "white_rook.gif"
+wn.addshape(white_rook_image)
 black_rook_image = "black_rook.gif"
 wn.addshape(black_rook_image)
 
-white_rook_image = "white_rook.gif"
-wn.addshape(white_rook_image)
+#Import gifs that will be used as the knights' shapes
+white_knight_image = "white_knight.gif"
+wn.addshape(white_knight_image)
+black_knight_image = "black_knight.gif"
+wn.addshape(black_knight_image)
 
+#Import gifs that will be used as the bishops' shapes
 white_bishop_image = "white_bishop.gif"
 wn.addshape(white_bishop_image)
+black_bishop_image = "black_bishop.gif"
+wn.addshape(black_bishop_image)
 
+#Import gifs that will be used as the queens' shapes
 white_queen_image = "white_queen.gif"
 wn.addshape(white_queen_image)
+black_queen_image = "black_queen.gif"
+wn.addshape(black_queen_image)
 
-white_pawn_image = "white_pawn.gif"
-wn.addshape(white_pawn_image)
+#Import gifs that will be used as the kings' shapes
+white_king_image = "white_king.gif"
+wn.addshape(white_king_image)
+black_king_image = "black_king.gif"
+wn.addshape(black_king_image)
 
 #Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
 developer_mode = 0
