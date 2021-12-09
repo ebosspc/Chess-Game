@@ -10,9 +10,11 @@ import turtle as trtl
 #####-Setup-#####
 #Create a turtle object to draw the board
 board_drawer = trtl.Turtle()
+board_drawer.hideturtle()
 
 #Create a turtle object to draw the labels on the board
 label_drawer = trtl.Turtle()
+label_drawer.hideturtle()
 
 #Define a list of letters that will be used to label the chess board
 chessboard_letters_list = ["A","B","C","D","E","F","G","H"]
@@ -70,6 +72,7 @@ label_drawer.goto(label_drawer_initial_x_position, label_drawer_initial_y_positi
 #####-Functions-#####
 #Define a function to draw a chessboard
 def draw_board():
+    board_drawer.showturtle()
     #Output debug message
     print("drawing the board")
 
@@ -108,6 +111,7 @@ def draw_board():
 
 #Define a function to give a chessboard labels
 def draw_labels():
+    label_drawer.showturtle()
     #Output a message for debugging
     print("Drawing the labels")
 
