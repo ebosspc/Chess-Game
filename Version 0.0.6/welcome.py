@@ -22,7 +22,7 @@ def print_instructions():
     print("Rooks can move upwards and accross the board and can take any piece along their path.")
     print("Knights can move in L-like shapes moving forward or back 2 squares, and then moving 1 square left or right, taking any piece in their path.")
     print("Bishops can move along diagonals, taking any piece in their path.")
-    print("Queens are like a combination of rooks and bishops. They can move along any diagonal, horizontal, or vertical line, taking any piece in their path.")
+    print("Queens are like a combination of rooks and bishops.\n They can move along any diagonal, horizontal, or vertical line, taking any piece in their path.")
     print("Kings can move 1 space in any direction of the 8 squares that incicle them.")
     
     #Describe the objective of the game
