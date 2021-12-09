@@ -64,6 +64,7 @@ import chessboard as chessboard
 wn = trtl.Screen()
 
 #####-Game Config-#####
+
 black_bishop_image = "black_bishop.gif"
 wn.addshape(black_bishop_image)
 
@@ -81,6 +82,9 @@ wn.addshape(black_rook_image)
 
 white_rook_image = "white_rook.gif"
 wn.addshape(white_rook_image)
+
+white_bishop_image = "white_bishop.gif"
+wn.addshape(white_bishop_image)
 
 #Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
 developer_mode = 0
@@ -614,9 +618,11 @@ pieces_list.append(black_knight_2)
 
 #Create a turtle for each bishop and add it to the pieces master list
 white_bishop_1 = trtl.Turtle()
+white_bishop_1.shape(white_bishop_image)
 white_bishop_1.hideturtle()
 pieces_list.append(white_bishop_1)
 white_bishop_2 = trtl.Turtle()
+white_bishop_2.shape(white_bishop_image)
 white_bishop_2.hideturtle()
 pieces_list.append(white_bishop_2)
 black_bishop_1 = trtl.Turtle()
