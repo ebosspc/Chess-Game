@@ -744,6 +744,7 @@ for i in range(total_num_pieces):
 
 #####-Screen-#####
 
+#Listen for keypresses
 
 #Keep the display running and persistent
 wn.mainloop()
