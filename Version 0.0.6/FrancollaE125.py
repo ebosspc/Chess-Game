@@ -64,6 +64,14 @@ import chessboard as chessboard
 wn = trtl.Screen()
 
 #####-Game Config-#####
+black_pawn_image = "black_pawn.gif"
+wn.addshape(black_pawn_image)
+
+black_queen_image = "black_queen.gif"
+wn.addshape(black_queen_image)
+
+black_king_image = "black_king.gif"
+wn.addshape(black_king_image)
 
 black_bishop_image = "black_bishop.gif"
 wn.addshape(black_bishop_image)
@@ -85,6 +93,12 @@ wn.addshape(white_rook_image)
 
 white_bishop_image = "white_bishop.gif"
 wn.addshape(white_bishop_image)
+
+white_queen_image = "white_queen.gif"
+wn.addshape(white_queen_image)
+
+white_pawn_image = "white_pawn.gif"
+wn.addshape(white_pawn_image)
 
 #Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
 developer_mode = 0
@@ -532,51 +546,67 @@ chessboard.draw_chessboard()
 
 #Create a turtle for each pawn and add it to the pieces master list
 white_pawn_1 = trtl.Turtle()
+white_pawn_1.shape(white_pawn_image)
 white_pawn_1.hideturtle()
 pieces_list.append(white_pawn_1)
 white_pawn_2 = trtl.Turtle()
+white_pawn_2.shape(white_pawn_image)
 white_pawn_2.hideturtle()
 pieces_list.append(white_pawn_2)
 white_pawn_3 = trtl.Turtle()
+white_pawn_3.shape(white_pawn_image)
 white_pawn_3.hideturtle()
 pieces_list.append(white_pawn_3)
 white_pawn_4 = trtl.Turtle()
+white_pawn_4.shape(white_pawn_image)
 white_pawn_4.hideturtle()
 pieces_list.append(white_pawn_4)
 white_pawn_5 = trtl.Turtle()
+white_pawn_5.shape(white_pawn_image)
 white_pawn_5.hideturtle()
 pieces_list.append(white_pawn_5)
 white_pawn_6 = trtl.Turtle()
+white_pawn_6.shape(white_pawn_image)
 white_pawn_6.hideturtle()
 pieces_list.append(white_pawn_6)
 white_pawn_7 = trtl.Turtle()
+white_pawn_7.shape(white_pawn_image)
 white_pawn_7.hideturtle()
 pieces_list.append(white_pawn_7)
 white_pawn_8 = trtl.Turtle()
+white_pawn_8.shape(white_pawn_image)
 white_pawn_8.hideturtle()
 pieces_list.append(white_pawn_8)
 black_pawn_1 = trtl.Turtle()
+black_pawn_1.shape(black_pawn_image)
 black_pawn_1.hideturtle()
 pieces_list.append(black_pawn_1)
 black_pawn_2 = trtl.Turtle()
+black_pawn_2.shape(black_pawn_image)
 black_pawn_2.hideturtle()
 pieces_list.append(black_pawn_2)
 black_pawn_3 = trtl.Turtle()
+black_pawn_3.shape(black_pawn_image)
 black_pawn_3.hideturtle()
 pieces_list.append(black_pawn_3)
 black_pawn_4 = trtl.Turtle()
+black_pawn_4.shape(black_pawn_image)
 black_pawn_4.hideturtle()
 pieces_list.append(black_pawn_4)
 black_pawn_5 = trtl.Turtle()
+black_pawn_5.shape(black_pawn_image)
 black_pawn_5.hideturtle()
 pieces_list.append(black_pawn_5)
 black_pawn_6 = trtl.Turtle()
+black_pawn_6.shape(black_pawn_image)
 black_pawn_6.hideturtle()
 pieces_list.append(black_pawn_6)
 black_pawn_7 = trtl.Turtle()
+black_pawn_7.shape(black_pawn_image)
 black_pawn_7.hideturtle()
 pieces_list.append(black_pawn_7)
 black_pawn_8 = trtl.Turtle()
+black_pawn_8.shape(black_pawn_image)
 black_pawn_8.hideturtle()
 pieces_list.append(black_pawn_8)
 
@@ -636,9 +666,11 @@ pieces_list.append(black_bishop_2)
 
 #Create a turtle for the queens and add it to the pieces master list
 white_queen = trtl.Turtle()
+white_queen.shape(white_queen_image)
 white_queen.hideturtle()
 pieces_list.append(white_queen)
 black_queen = trtl.Turtle()
+black_queen.shape(black_queen_image)
 black_queen.hideturtle()
 pieces_list.append(black_queen)
 
@@ -648,6 +680,7 @@ white_king.shape(white_king_image)
 white_king.hideturtle()
 pieces_list.append(white_king)
 black_king = trtl.Turtle()
+black_king.shape(black_king_image)
 black_king.hideturtle()
 pieces_list.append(black_king)
 
