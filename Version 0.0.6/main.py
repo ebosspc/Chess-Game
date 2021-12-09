@@ -30,7 +30,7 @@ while (True):
     
     #Check if the user wants to enter developer mode
     elif instructions_request == "d":
-        #Print a message to inform a user that they are in developer mode
+        #Turn on developer mode
         developer_mode = 1
         print("You are now in developer mode.")
         
