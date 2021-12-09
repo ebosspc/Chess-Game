@@ -3,6 +3,56 @@ PLTW Lesson 1.2.5
 @authors: Ethan Francolla
 '''
 
+#####-Welcome-#####
+#Import abstracted welcome module that will handle giving a user instructions
+import welcome as welcome
+
+#Welcome the user to the game in the terminal
+welcome.welcome_user()
+
+#Set developer mode off by default
+developer_mode = 0
+
+#Ask the user if they want instructions until they enter a valid input
+while (True):
+    #Store the user input in a variable
+    instructions_request = str(input("Please write y for yes, n for no, and d for developer mode: "))
+
+    #Check if the user selected yes and adjust variables appropriately
+    if instructions_request == "y":
+        instructions_request = 1
+        break
+
+    #Check if the user selected no and adjust variables appropriately
+    elif instructions_request == "n":
+        instructions_request = 0
+        break
+    
+    #Check if the user wants to enter developer mode
+    elif instructions_request == "d":
+        #Print a message to inform a user that they are in developer mode
+        developer_mode = 1
+        print("You are now in developer mode.")
+        
+    #Output an error message if the user enters an invalid input
+    else:
+        print("Sorry! That was not a valid input.\nPlease try again.")
+
+#Print the instructions if the user wants them
+if instructions_request == 1:
+    welcome.print_instructions()
+
+#Don't print the instructions if the user doesn't want them
+elif instructions_request == 0:
+    print("Welcome back!")
+
+#Inform the user the game is starting
+print("Lets start the game!")
+
+#Inform the user if they are running the program as a developer
+if developer_mode == 1:
+    print("You are running this program as a developer.")
+
 #####-Imports-#####
 #Import Turtle library for drawing and display functions
 import turtle as trtl
@@ -10,8 +60,10 @@ import turtle as trtl
 #Import abstracted chessboard module for drawing a chessboard
 import chessboard as chessboard
 
-
 #####-Game Config-#####
+#Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
+developer_mode = 0
+
 #Define the chess board's initial attributes
 number_of_sides = 4
 number_of_squares = 64
