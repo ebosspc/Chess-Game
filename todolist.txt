@@ -1,0 +1,16 @@
+The list of stuff we need to do
+
+cite sources for gif files
+make the images of pieces not a have a wier dbackground (can be done later down the line)
+
+Comment uncommented new code
+
+Add user control over chess piece movement via terminal or something else if someone has a better idea
+
+Add piece movement and tracking
+
+Add legal move checking or check/checkmate checking (do this piece movement functionality)
+
+Write documentation for program
+
+Make code more concise using lists and indexing
