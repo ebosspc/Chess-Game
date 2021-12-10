@@ -710,14 +710,24 @@ piece_on_g2 = white_pawn_7
 white_pawn_8.goto(h2_cors)
 piece_on_h2 = white_pawn_8
 
+#Send white pawns to there starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 black_pawn_1.goto(a7_cors)
+piece_on_a7 = black_pawn_1
 black_pawn_2.goto(b7_cors)
+piece_on_b7 = black_pawn_2
 black_pawn_3.goto(c7_cors)
+piece_on_c7 = black_pawn_3
 black_pawn_4.goto(d7_cors)
+piece_on_d7 = black_pawn_4
 black_pawn_5.goto(e7_cors)
+piece_on_e7 = black_pawn_5
 black_pawn_6.goto(f7_cors)
+piece_on_f7 = black_pawn_6
 black_pawn_7.goto(g7_cors)
+piece_on_g7 = black_pawn_7
 black_pawn_8.goto(h7_cors)
+piece_on_h7 = black_pawn_8
 
 #Send each rook to its starting location
 white_rook_1.goto(a1_cors)
