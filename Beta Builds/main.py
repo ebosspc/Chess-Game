@@ -547,8 +547,16 @@ h8_cors = h8_xcor, h8_ycor
 pieces_list = []
 
 #####-Setup-#####
+#Output a message for debugging if the user is in developer mode
+if developer_mode == 1:
+    print("Drawing the chessboard")
+
 #Draw the full chessboard with labels
 chessboard.draw_chessboard()
+
+#Output a message for debugging if the user is in developer mode
+if developer_mode == 1:
+    print("Creating chess pieces")
 
 #Create a turtle for each pawn and add it to the pieces master list
 white_pawn_1 = trtl.Turtle()
@@ -690,12 +698,20 @@ black_king.shape(black_king_image)
 black_king.hideturtle()
 pieces_list.append(black_king)
 
+#Output a message for debugging if the user is in developer mode
+if developer_mode == 1:
+    print("Setting piece properties")
+
 #Set all pieces to a black fill color and prevent them from leaving tracers behind when they move or be visible as others are being created
 for i in range(total_num_pieces):
     pieces_list[i].penup()
     pieces_list[i].fillcolor(pieces_fillcolor)
     pieces_list[i].pencolor(pieces_pencolor)
     pieces_list[i].speed(pieces_speed)
+
+#Output a message for debugging if the user is in developer mode
+if developer_mode == 1:
+    print("Sending pieces to starting locations")
 
 #Send white pawns to there starting location
 #Update the tracker variables on their respective squares since they are now holding that piece
@@ -790,6 +806,10 @@ white_king.goto(e1_cors)
 piece_on_e1 = white_king
 black_king.goto(e8_cors)
 piece_on_e8 = black_king
+
+#Output a message for debugging if the user is in developer mode
+if developer_mode == 1:
+    print("Displaying pieces")
 
 #For loop that shows the pieces after they have been moved
 for i in range(total_num_pieces):
