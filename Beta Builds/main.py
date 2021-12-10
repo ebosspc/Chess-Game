@@ -820,7 +820,40 @@ for i in range(total_num_pieces):
 
 #####-Screen-#####
 
+#Call specific functions depending which key a user presses on their keyboard
+wn.onkeypress(a_pressed, "a")
+wn.onkeypress(b_pressed, "b")
+wn.onkeypress(c_pressed, "c")
+wn.onkeypress(d_pressed, "d")
+wn.onkeypress(e_pressed, "e")
+wn.onkeypress(f_pressed, "f")
+wn.onkeypress(g_pressed, "g")
+wn.onkeypress(h_pressed, "h")
+wn.onkeypress(i_pressed, "i")
+wn.onkeypress(j_pressed, "j")
+wn.onkeypress(k_pressed, "k")
+wn.onkeypress(l_pressed, "l")
+wn.onkeypress(m_pressed, "m")
+wn.onkeypress(n_pressed, "n")
+wn.onkeypress(o_pressed, "o")
+wn.onkeypress(p_pressed, "p")
+wn.onkeypress(q_pressed, "q")
+wn.onkeypress(r_pressed, "r")
+wn.onkeypress(s_pressed, "s")
+wn.onkeypress(t_pressed, "t")
+wn.onkeypress(u_pressed, "u")
+wn.onkeypress(v_pressed, "v")
+wn.onkeypress(w_pressed, "w")
+wn.onkeypress(x_pressed, "x")
+wn.onkeypress(y_pressed, "y")
+wn.onkeypress(z_pressed, "z")
+wn.onkeypress(up_pressed, "Up")
+wn.onkeypress(right_pressed, "Right")
+wn.onkeypress(down_pressed, "Down")
+wn.onkeypress(left_pressed, "Left")
+
 #Listen for keypresses
+wn.listen()
 
 #Keep the display running and persistent
 wn.mainloop()
