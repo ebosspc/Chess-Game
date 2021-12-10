@@ -72,9 +72,8 @@ label_drawer.goto(label_drawer_initial_x_position, label_drawer_initial_y_positi
 #####-Functions-#####
 #Define a function to draw a chessboard
 def draw_board():
+    #Display board drawer
     board_drawer.showturtle()
-    #Output debug message
-    print("drawing the board")
 
     #For loop to draw the chess board
     for i in range(number_of_sides):
@@ -111,17 +110,13 @@ def draw_board():
 
 #Define a function to give a chessboard labels
 def draw_labels():
+    #Display label drawering turtle
     label_drawer.showturtle()
-    #Output a message for debugging
-    print("Drawing the labels")
 
     #For loop to draw all of the letters and numbers on the board
     for i in range(number_of_sides):
         #Check if the turtle is drawing labels on the bottom side of the board
         if i < 1:
-            #Output a message for debugging
-            print("Draw the letters on the bottom")
-
             #For loop to label the bottom row of the chessboard with letters
             for x in range(int(number_of_squares_on_side)): 
                 #Write the appropirate letter from the list of letters with the index of x
@@ -132,9 +127,6 @@ def draw_labels():
 
         #Check if the turtle is drawing labels on the right side of the board
         elif i < 2:
-            #Output a message for debugging
-            print("Draw the numbers on the right side")
-
             #Move and turn the labeler turtle to the appropriate position
             label_drawer.setheading(180)
             label_drawer.forward(10)
@@ -151,9 +143,6 @@ def draw_labels():
 
         #Check if the turtle is drawing labels on the top side of the board
         elif i < 3:
-            #Output a message for debugging
-            print("Draw the letters on the top side")
-
             #Move and turn the labeler turtle to the appropriate position
             label_drawer.goto(-228, 260)
             label_drawer.setheading(0)
@@ -168,9 +157,6 @@ def draw_labels():
 
         #Check if the turtle is drawing labels on the left side of the board
         else:
-            #Output a message for debugging
-            print("Draw the numbers on the left side")
-
             #Move and turn the labeler turtle to the appropriate position
             label_drawer.goto(-275, -245)
             label_drawer.setheading(90)
