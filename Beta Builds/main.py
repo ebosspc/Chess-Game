@@ -819,6 +819,155 @@ for i in range(total_num_pieces):
 
 
 #####-Screen-#####
+#Define a function that will execute code based on the keypress of a user
+def a_pressed():
+    if developer_mode == 1:
+        print("A key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def b_pressed():
+    if developer_mode == 1:
+        print("B key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def c_pressed():
+    if developer_mode == 1:
+        print("C key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def d_pressed():
+    if developer_mode == 1:
+        print("D key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def e_pressed():
+    if developer_mode == 1:
+        print("E key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def f_pressed():
+    if developer_mode == 1:
+        print("F key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def g_pressed():
+    if developer_mode == 1:
+        print("G key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def h_pressed():
+    if developer_mode == 1:
+        print("H key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def i_pressed():
+    if developer_mode == 1:
+        print("I key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def j_pressed():
+    if developer_mode == 1:
+        print("J key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def k_pressed():
+    if developer_mode == 1:
+        print("K key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def l_pressed():
+    if developer_mode == 1:
+        print("L key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def m_pressed():
+    if developer_mode == 1:
+        print("M key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def n_pressed():
+    if developer_mode == 1:
+        print("N key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def o_pressed():
+    if developer_mode == 1:
+        print("O key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def p_pressed():
+    if developer_mode == 1:
+        print("P key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def q_pressed():
+    if developer_mode == 1:
+        print("Q key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def r_pressed():
+    if developer_mode == 1:
+        print("R key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def s_pressed():
+    if developer_mode == 1:
+        print("S key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def t_pressed():
+    if developer_mode == 1:
+        print("T key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def u_pressed():
+    if developer_mode == 1:
+        print("U key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def v_pressed():
+    if developer_mode == 1:
+        print("V key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def w_pressed():
+    if developer_mode == 1:
+        print("W key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def x_pressed():
+    if developer_mode == 1:
+        print("X key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def y_pressed():
+    if developer_mode == 1:
+        print("Y key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def z_pressed():
+    if developer_mode == 1:
+        print("Z key pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def up_pressed():
+    if developer_mode == 1:
+        print("Up Arrow pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def right_pressed():
+    if developer_mode == 1:
+        print("Right Arrow pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def down_pressed():
+    if developer_mode == 1:
+        print("Down Arrow pressed")
+
+#Define a function that will execute code based on the keypress of a user
+def left_pressed():
+    if developer_mode == 1:
+        print("Left Arrow pressed")
 
 #Call specific functions depending which key a user presses on their keyboard
 wn.onkeypress(a_pressed, "a")
