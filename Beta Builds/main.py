@@ -691,15 +691,25 @@ for i in range(total_num_pieces):
     pieces_list[i].pencolor(pieces_pencolor)
     pieces_list[i].speed(pieces_speed)
 
-#Send each pawn to its starting location
+#Send white pawns to there starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 white_pawn_1.goto(a2_cors)
+piece_on_a2 = white_pawn_1
 white_pawn_2.goto(b2_cors)
+piece_on_b2 = white_pawn_2
 white_pawn_3.goto(c2_cors)
+piece_on_c2 = white_pawn_3
 white_pawn_4.goto(d2_cors)
+piece_on_d2 = white_pawn_4
 white_pawn_5.goto(e2_cors)
+piece_on_e2 = white_pawn_5
 white_pawn_6.goto(f2_cors)
+piece_on_f2 = white_pawn_6
 white_pawn_7.goto(g2_cors)
+piece_on_g2 = white_pawn_7
 white_pawn_8.goto(h2_cors)
+piece_on_h2 = white_pawn_8
+
 black_pawn_1.goto(a7_cors)
 black_pawn_2.goto(b7_cors)
 black_pawn_3.goto(c7_cors)
