@@ -710,7 +710,7 @@ piece_on_g2 = white_pawn_7
 white_pawn_8.goto(h2_cors)
 piece_on_h2 = white_pawn_8
 
-#Send white pawns to there starting location
+#Send black pawns to there starting location
 #Update the tracker variables on their respective squares since they are now holding that piece
 black_pawn_1.goto(a7_cors)
 piece_on_a7 = black_pawn_1
@@ -729,31 +729,61 @@ piece_on_g7 = black_pawn_7
 black_pawn_8.goto(h7_cors)
 piece_on_h7 = black_pawn_8
 
-#Send each rook to its starting location
+#Send white rooks to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 white_rook_1.goto(a1_cors)
+piece_on_a1 = white_rook_1
 white_rook_2.goto(h1_cors)
+piece_on_h1 = white_rook_2
+
+#Send black rooks to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 black_rook_1.goto(a8_cors)
+piece_on_a8 = black_rook_1
 black_rook_2.goto(h8_cors)
+piece_on_h8 = black_rook_2
 
-#Send each knight to its starting location
+#Send white knights to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 white_knight_1.goto(b1_cors)
+piece_on_b1 = white_knight_1
 white_knight_2.goto(g1_cors)
+piece_on_g1 = white_knight_2
+
+#Send black knights to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 black_knight_1.goto(b8_cors)
+piece_on_b8 = black_knight_1
 black_knight_2.goto(g8_cors)
+piece_on_g8 = black_knight_2
 
-#Send each bishop to its starting location
+#Send white bishops to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 white_bishop_1.goto(c1_cors)
+piece_on_c1 = white_bishop_1
 white_bishop_2.goto(f1_cors)
+piece_on_f1 = white_bishop_2
+
+#Send black bishops to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 black_bishop_1.goto(c8_cors)
+piece_on_c8 = black_bishop_1
 black_bishop_2.goto(f8_cors)
+piece_on_f8 = black_bishop_2
 
-#Send each queen to its starting location
+#Send queens to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 white_queen.goto(d1_cors)
+piece_on_d1 = white_queen
 black_queen.goto(d8_cors)
+piece_on_d8 = black_queen
 
-#Send each king to its starting location
+#Send kings to their starting location
+#Update the tracker variables on their respective squares since they are now holding that piece
 white_king.goto(e1_cors)
+piece_on_e1 = white_king
 black_king.goto(e8_cors)
+piece_on_e8 = black_king
 
 #For loop that shows the pieces after they have been moved
 for i in range(total_num_pieces):
