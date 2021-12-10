@@ -822,7 +822,404 @@ for i in range(total_num_pieces):
     pieces_list[i].showturtle()
 
 #####-Game-#####
+x = 0
+while (x < 10):
+    global moving_piece
+    initial_input = input("On which square is the piece you want to move?: ")
+    while initial_input not in possible_squares_list:
+        initial_input = input("On which square is the piece you want to move?: ")
+    
+    if initial_input == "a1":
+        moving_piece = piece_on_a1
+        piece_on_a1 = 0
+    if initial_input == "a2":
+        moving_piece = piece_on_a2
+        piece_on_a2 = 0
+    if initial_input == "a3":
+        moving_piece = piece_on_a3
+        piece_on_a3 = 0
+    if initial_input == "a4":
+        moving_piece = piece_on_a4
+        piece_on_a4 = 0
+    if initial_input == "a5":
+        moving_piece = piece_on_a5
+        piece_on_a5 = 0
+    if initial_input == "a6":
+        moving_piece = piece_on_a6
+        piece_on_a6 = 0
+    if initial_input == "a7":
+        moving_piece = piece_on_a7
+        piece_on_a7 = 0
+    if initial_input == "a8":
+        moving_piece = piece_on_a8
+        piece_on_a8 = 0
+    if initial_input == "b1":
+        moving_piece = piece_on_b1
+        piece_on_b1 = 0
+    if initial_input == "b2":
+        moving_piece = piece_on_b2
+        piece_on_b2 = 0
+    if initial_input == "b3":
+        moving_piece = piece_on_b3
+        piece_on_b3 = 0
+    if initial_input == "b4":
+        moving_piece = piece_on_b4
+        piece_on_b4 = 0
+    if initial_input == "b5":
+        moving_piece = piece_on_b5
+        piece_on_b5 = 0
+    if initial_input == "b6":
+        moving_piece = piece_on_b6
+        piece_on_b6 = 0
+    if initial_input == "b7":
+        moving_piece = piece_on_b7
+        piece_on_b7 = 0
+    if initial_input == "b8":
+        moving_piece = piece_on_b8
+        piece_on_b8 = 0
+    if initial_input == "c1":
+        moving_piece = piece_on_c1
+        piece_on_c1 = 0
+    if initial_input == "c2":
+        moving_piece = piece_on_c2
+        piece_on_c2 = 0
+    if initial_input == "c3":
+        moving_piece = piece_on_c3
+        piece_on_c3 = 0
+    if initial_input == "c4":
+        moving_piece = piece_on_c4
+        piece_on_c4 = 0
+    if initial_input == "c5":
+        moving_piece = piece_on_c5
+        piece_on_c5 = 0
+    if initial_input == "c6":
+        moving_piece = piece_on_c6
+        piece_on_c6 = 0
+    if initial_input == "c7":
+        moving_piece = piece_on_c7
+        piece_on_c7 = 0
+    if initial_input == "c8":
+        moving_piece = piece_on_c8
+        piece_on_c8 = 0
+    if initial_input == "d1":
+        moving_piece = piece_on_d1
+        piece_on_d1 = 0
+    if initial_input == "d2":
+        moving_piece = piece_on_d2
+        piece_on_d2 = 0
+    if initial_input == "d3":
+        moving_piece = piece_on_d3
+        piece_on_d3 = 0
+    if initial_input == "d4":
+        moving_piece = piece_on_d4
+        piece_on_d4 = 0
+    if initial_input == "d5":
+        moving_piece = piece_on_d5
+        piece_ond5 = 0
+    if initial_input == "d6":
+        moving_piece = piece_on_d6
+        piece_on_d6 = 0
+    if initial_input == "d7":
+        moving_piece = piece_on_d7
+        piece_on_d7 = 0
+    if initial_input == "d8":
+        moving_piece = piece_on_d8
+        piece_on_d8 = 0
+    if initial_input == "e1":
+        moving_piece = piece_on_e1
+        piece_on_e1 = 0
+    if initial_input == "e2":
+        moving_piece = piece_on_e2
+        piece_on_e2 = 0
+    if initial_input == "e3":
+        moving_piece = piece_on_e3
+        piece_on_e3 = 0
+    if initial_input == "e4":
+        moving_piece = piece_on_e4
+        piece_on_e4 = 0
+    if initial_input == "e5":
+        moving_piece = piece_on_e5
+        piece_one5 = 0
+    if initial_input == "e6":
+        moving_piece = piece_on_e6
+        piece_on_e6 = 0
+    if initial_input == "e7":
+        moving_piece = piece_on_e7
+        piece_on_e7 = 0
+    if initial_input == "e8":
+        moving_piece = piece_on_e8
+        piece_on_e8 = 0
+    if initial_input == "f1":
+        moving_piece = piece_on_f1
+        piece_on_f1 = 0
+    if initial_input == "f2":
+        moving_piece = piece_on_f2
+        piece_on_f2 = 0
+    if initial_input == "f3":
+        moving_piece = piece_on_f3
+        piece_on_f3 = 0
+    if initial_input == "f4":
+        moving_piece = piece_on_f4
+        piece_on_f4 = 0
+    if initial_input == "f5":
+        moving_piece = piece_on_f5
+        piece_onf5 = 0
+    if initial_input == "f6":
+        moving_piece = piece_on_f6
+        piece_on_f6 = 0
+    if initial_input == "f7":
+        moving_piece = piece_on_f7
+        piece_on_f7 = 0
+    if initial_input == "f8":
+        moving_piece = piece_on_f8
+        piece_on_f8 = 0
+    if initial_input == "g1":
+        moving_piece = piece_on_g1
+        piece_on_g1 = 0
+    if initial_input == "g2":
+        moving_piece = piece_on_g2
+        piece_on_g2 = 0
+    if initial_input == "g3":
+        moving_piece = piece_on_g3
+        piece_on_g3 = 0
+    if initial_input == "g4":
+        moving_piece = piece_on_g4
+        piece_on_g4 = 0
+    if initial_input == "g5":
+        moving_piece = piece_on_g5
+        piece_ong5 = 0
+    if initial_input == "g6":
+        moving_piece = piece_on_g6
+        piece_on_g6 = 0
+    if initial_input == "g7":
+        moving_piece = piece_on_g7
+        piece_on_g7 = 0
+    if initial_input == "g8":
+        moving_piece = piece_on_g8
+        piece_on_g8 = 0
+    if initial_input == "h1":
+        moving_piece = piece_on_h1
+        piece_on_h1 = 0
+    if initial_input == "h2":
+        moving_piece = piece_on_h2
+        piece_on_h2 = 0
+    if initial_input == "h3":
+        moving_piece = piece_on_h3
+        piece_on_h3 = 0
+    if initial_input == "h4":
+        moving_piece = piece_on_h4
+        piece_on_h4 = 0
+    if initial_input == "h5":
+        moving_piece = piece_on_h5
+        piece_onh5 = 0
+    if initial_input == "h6":
+        moving_piece = piece_on_h6
+        piece_on_h6 = 0
+    if initial_input == "h7":
+        moving_piece = piece_on_h7
+        piece_on_h7 = 0
+    if initial_input == "h8":
+        moving_piece = piece_on_h8
+        piece_on_h8 = 0
 
+    other_input = input("Where do you want to move the piece to?: ")
+    while other_input not in possible_squares_list:
+        other_input = input("Where do you want to move the piece to?: ")
+
+    if other_input == "a1":
+        moving_piece.goto(a1_cors)
+        piece_on_a1 = moving_piece
+    if other_input == "a2":
+        moving_piece.goto(a2_cors)
+        piece_on_a2 = moving_piece
+    if other_input == "a3":
+        moving_piece.goto(a3_cors)
+        piece_on_a3 = moving_piece
+    if other_input == "a4":
+        moving_piece.goto(a4_cors)
+        piece_on_a4 = moving_piece
+    if other_input == "a5":
+        moving_piece.goto(a5_cors)
+        piece_on_a5 = moving_piece
+    if other_input == "a6":
+        moving_piece.goto(a6_cors)
+        piece_on_a6 = moving_piece
+    if other_input == "a7":
+        moving_piece.goto(a7_cors)
+        piece_on_a7 = moving_piece
+    if other_input == "a8":
+        moving_piece.goto(a8_cors)
+        piece_on_a8 = moving_piece
+    if other_input == "b1":
+        moving_piece.goto(b1_cors)
+        piece_on_b1 = moving_piece
+    if other_input == "b2":
+        moving_piece.goto(b2_cors)
+        piece_on_b2 = moving_piece
+    if other_input == "b3":
+        moving_piece.goto(b3_cors)
+        piece_on_b3 = moving_piece
+    if other_input == "b4":
+        moving_piece.goto(b4_cors)
+        piece_on_b4 = moving_piece
+    if other_input == "b5":
+        moving_piece.goto(b5_cors)
+        piece_on_b5 = moving_piece
+    if other_input == "b6":
+        moving_piece.goto(b6_cors)
+        piece_on_b6 = moving_piece
+    if other_input == "b7":
+        moving_piece.goto(b7_cors)
+        piece_on_b7 = moving_piece
+    if other_input == "b8":
+        moving_piece.goto(b8_cors)
+        piece_on_b8 = moving_piece
+    if other_input == "c1":
+        moving_piece.goto(c1_cors)
+        piece_on_c1 = moving_piece
+    if other_input == "c2":
+        moving_piece.goto(c2_cors)
+        piece_on_c2 = moving_piece
+    if other_input == "c3":
+        moving_piece.goto(c3_cors)
+        piece_on_c3 = moving_piece
+    if other_input == "c4":
+        moving_piece.goto(c4_cors)
+        piece_on_c4 = moving_piece
+    if other_input == "c5":
+        moving_piece.goto(c5_cors)
+        piece_on_c5 = moving_piece
+    if other_input == "c6":
+        moving_piece.goto(c6_cors)
+        piece_on_c6 = moving_piece
+    if other_input == "c7":
+        moving_piece.goto(c7_cors)
+        piece_on_c7 = moving_piece
+    if other_input == "c8":
+        moving_piece.goto(c8_cors)
+        piece_on_c8 = moving_piece
+    if other_input == "d1":
+        moving_piece.goto(d1_cors)
+        piece_on_d1 = moving_piece
+    if other_input == "d2":
+        moving_piece.goto(d2_cors)
+        piece_on_d2 = moving_piece
+    if other_input == "d3":
+        moving_piece.goto(d3_cors)
+        piece_on_d3 = moving_piece
+    if other_input == "d4":
+        moving_piece.goto(d4_cors)
+        piece_on_d4 = moving_piece
+    if other_input == "d5":
+        moving_piece.goto(d5_cors)
+        piece_on_d5 = moving_piece
+    if other_input == "d6":
+        moving_piece.goto(d6_cors)
+        piece_on_d6 = moving_piece
+    if other_input == "d7":
+        moving_piece.goto(d7_cors)
+        piece_on_d7 = moving_piece
+    if other_input == "d8":
+        moving_piece.goto(d8_cors)
+        piece_on_d8 = moving_piece
+    if other_input == "e1":
+        moving_piece.goto(e1_cors)
+        piece_on_e1 = moving_piece
+    if other_input == "e2":
+        moving_piece.goto(e2_cors)
+        piece_on_e2 = moving_piece
+    if other_input == "e3":
+        moving_piece.goto(e3_cors)
+        piece_on_e3 = moving_piece
+    if other_input == "e4":
+        moving_piece.goto(e4_cors)
+        piece_on_e4 = moving_piece
+    if other_input == "e5":
+        moving_piece.goto(e5_cors)
+        piece_on_e5 = moving_piece
+    if other_input == "e6":
+        moving_piece.goto(e6_cors)
+        piece_on_e6 = moving_piece
+    if other_input == "e7":
+        moving_piece.goto(e7_cors)
+        piece_on_e7 = moving_piece
+    if other_input == "e8":
+        moving_piece.goto(e8_cors)
+        piece_on_e8 = moving_piece
+    if other_input == "f1":
+        moving_piece.goto(f1_cors)
+        piece_on_f1 = moving_piece
+    if other_input == "f2":
+        moving_piece.goto(f2_cors)
+        piece_on_f2 = moving_piece
+    if other_input == "f3":
+        moving_piece.goto(f3_cors)
+        piece_on_f3 = moving_piece
+    if other_input == "f4":
+        moving_piece.goto(f4_cors)
+        piece_on_f4 = moving_piece
+    if other_input == "f5":
+        moving_piece.goto(f5_cors)
+        piece_on_f5 = moving_piece
+    if other_input == "f6":
+        moving_piece.goto(f6_cors)
+        piece_on_f6 = moving_piece
+    if other_input == "f7":
+        moving_piece.goto(f7_cors)
+        piece_on_f7 = moving_piece
+    if other_input == "f8":
+        moving_piece.goto(f8_cors)
+        piece_on_f8 = moving_piece
+    if other_input == "g1":
+        moving_piece.goto(g1_cors)
+        piece_on_g1 = moving_piece
+    if other_input == "g2":
+        moving_piece.goto(g2_cors)
+        piece_on_g2 = moving_piece
+    if other_input == "g3":
+        moving_piece.goto(g3_cors)
+        piece_on_g3 = moving_piece
+    if other_input == "g4":
+        moving_piece.goto(g4_cors)
+        piece_on_g4 = moving_piece
+    if other_input == "g5":
+        moving_piece.goto(g5_cors)
+        piece_on_g5 = moving_piece
+    if other_input == "g6":
+        moving_piece.goto(g6_cors)
+        piece_on_g6 = moving_piece
+    if other_input == "g7":
+        moving_piece.goto(g7_cors)
+        piece_on_g7 = moving_piece
+    if other_input == "g8":
+        moving_piece.goto(g8_cors)
+        piece_on_g8 = moving_piece
+    if other_input == "h1":
+        moving_piece.goto(h1_cors)
+        piece_on_h1 = moving_piece
+    if other_input == "h2":
+        moving_piece.goto(h2_cors)
+        piece_on_h2 = moving_piece
+    if other_input == "h3":
+        moving_piece.goto(h3_cors)
+        piece_on_h3 = moving_piece
+    if other_input == "h4":
+        moving_piece.goto(h4_cors)
+        piece_on_h4 = moving_piece
+    if other_input == "h5":
+        moving_piece.goto(h5_cors)
+        piece_on_h5 = moving_piece
+    if other_input == "h6":
+        moving_piece.goto(h6_cors)
+        piece_on_h6 = moving_piece
+    if other_input == "h7":
+        moving_piece.goto(h7_cors)
+        piece_on_h7 = moving_piece
+    if other_input == "h8":
+        moving_piece.goto(h8_cors)
+        piece_on_h8 = moving_piece
+
+    x = x + 1
 
 #####-Screen-#####
 #Define a function that will execute code based on the keypress of a user
