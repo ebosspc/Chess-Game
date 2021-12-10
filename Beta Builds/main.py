@@ -10,7 +10,8 @@ import welcome as welcome
 #Welcome the user to the game in the terminal
 welcome.welcome_user()
 
-#Set developer mode off by default
+#Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
+#It is off by default
 developer_mode = 0
 
 #Ask the user if they want instructions until they enter a valid input
@@ -64,6 +65,10 @@ import chessboard as chessboard
 #Generate a screen for the game to diplay on
 wn = trtl.Screen()
 
+#Output mesage for debugging if the user is in developer mode
+if developer_mode == 1:
+    print("Importing and adding gifs")
+
 #Import gifs that will be used as the pawns' shapes
 white_pawn_image = "white_pawn.gif"
 wn.addshape(white_pawn_image)
@@ -100,8 +105,9 @@ wn.addshape(white_king_image)
 black_king_image = "black_king.gif"
 wn.addshape(black_king_image)
 
-#Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
-developer_mode = 0
+#Output a message for debugging if the user is in developer mode
+if developer_mode == 1:
+    print("Defining chessboard initial attributes")
 
 #Define the chess board's initial attributes
 number_of_sides = 4
