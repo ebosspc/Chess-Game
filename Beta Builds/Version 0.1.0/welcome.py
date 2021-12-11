@@ -31,4 +31,4 @@ def print_instructions():
     print("When the king is put in check, the player put in check must make a legal move to prevent their king from being taken.")
     print("If there are no legal moves a player can make, and the king is in check then the player is in checkmate and the other player wins!")
     print("Please note that in chess, a player can never be forced to make an illegal move,\nso if a player can't make a legal mvoe without putting their king into check, it is a stalemate and draw.")
-
+    
