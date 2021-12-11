@@ -18,13 +18,15 @@ a2_cors = a2_xcor, a2_ycor
 
 test_turtle = trtl.Turtle()
 test_turtle.goto(a1_cors)
+test_turtle_2 = trtl.Turtle()
+test_turtle_2.goto(a2_cors)
 
 bishop_image = "black_bishop.gif"
 wn.addshape(bishop_image)
 test_turtle.shape(bishop_image)
 
 piece_on_a1 = test_turtle
-piece_on_a2 = 0
+piece_on_a2 = test_turtle_2
 
 
 possible_squares_list = ["a1","a2","a3","a4","a5","a6","a7","a8","b1","b2","b3","b4","b5","b6","b7","b8",
@@ -48,10 +50,17 @@ while (True):
     while other_input not in possible_squares_list:
         other_input = input("Where do you want to move the piece to?: ")
     if other_input == "a1":
+        if piece_on_a1 != 0:
+            piece_on_a1.clear()
+            piece_on_a1.hideturtle()
+            piece_on_a1 = 0
         moving_piece.goto(a1_cors)
         piece_on_a1 = moving_piece
     if other_input =="a2":
-        print("goto a2")
+        if piece_on_a2 != 0:
+            piece_on_a2.clear()
+            piece_on_a2.hideturtle()
+            piece_on_a2 = 0
         moving_piece.goto(a2_cors)
         piece_on_a2 = moving_piece
 

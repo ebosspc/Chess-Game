@@ -1027,195 +1027,451 @@ while (x < 10):
         other_input = input("Where do you want to move the piece to?: ")
 
     if other_input == "a1":
+        if piece_on_a1 != 0:
+            piece_on_a1.clear()
+            piece_on_a1.hideturtle()
+            piece_on_a1 = 0
         moving_piece.goto(a1_cors)
         piece_on_a1 = moving_piece
     if other_input == "a2":
+        if piece_on_a2 != 0:
+            piece_on_a2.clear()
+            piece_on_a2.hideturtle()
+            piece_on_a2 = 0
         moving_piece.goto(a2_cors)
         piece_on_a2 = moving_piece
     if other_input == "a3":
+        if piece_on_a3 != 0:
+            piece_on_a3.clear()
+            piece_on_a3.hideturtle()
+            piece_on_a3 = 0
         moving_piece.goto(a3_cors)
         piece_on_a3 = moving_piece
     if other_input == "a4":
+        if piece_on_a4 != 0:
+            piece_on_a4.clear()
+            piece_on_a4.hideturtle()
+            piece_on_a4 = 0
         moving_piece.goto(a4_cors)
         piece_on_a4 = moving_piece
     if other_input == "a5":
+        if piece_on_a5 != 0:
+            piece_on_a5.clear()
+            piece_on_a5.hideturtle()
+            piece_on_a5 = 0
         moving_piece.goto(a5_cors)
         piece_on_a5 = moving_piece
     if other_input == "a6":
+        if piece_on_a6 != 0:
+            piece_on_a6.clear()
+            piece_on_a6.hideturtle()
+            piece_on_a6 = 0
         moving_piece.goto(a6_cors)
         piece_on_a6 = moving_piece
     if other_input == "a7":
+        if piece_on_a7 != 0:
+            piece_on_a7.clear()
+            piece_on_a7.hideturtle()
+            piece_on_a7 = 0
         moving_piece.goto(a7_cors)
         piece_on_a7 = moving_piece
     if other_input == "a8":
+        if piece_on_a8 != 0:
+            piece_on_a8.clear()
+            piece_on_a8.hideturtle()
+            piece_on_a8 = 0
         moving_piece.goto(a8_cors)
         piece_on_a8 = moving_piece
     if other_input == "b1":
+        if piece_on_b1 != 0:
+            piece_on_b1.clear()
+            piece_on_b1.hideturtle()
+            piece_on_b1 = 0
         moving_piece.goto(b1_cors)
         piece_on_b1 = moving_piece
     if other_input == "b2":
+        if piece_on_b2 != 0:
+            piece_on_b2.clear()
+            piece_on_b2.hideturtle()
+            piece_on_b2 = 0
         moving_piece.goto(b2_cors)
         piece_on_b2 = moving_piece
     if other_input == "b3":
+        if piece_on_b3 != 0:
+            piece_on_b3.clear()
+            piece_on_b3.hideturtle()
+            piece_on_b3 = 0
         moving_piece.goto(b3_cors)
         piece_on_b3 = moving_piece
     if other_input == "b4":
+        if piece_on_b4 != 0:
+            piece_on_b4.clear()
+            piece_on_b4.hideturtle()
+            piece_on_b4 = 0
         moving_piece.goto(b4_cors)
         piece_on_b4 = moving_piece
     if other_input == "b5":
+        if piece_on_b5 != 0:
+            piece_on_b5.clear()
+            piece_on_b5.hideturtle()
+            piece_on_b5 = 0
         moving_piece.goto(b5_cors)
         piece_on_b5 = moving_piece
     if other_input == "b6":
+        if piece_on_b6 != 0:
+            piece_on_b6.clear()
+            piece_on_b6.hideturtle()
+            piece_on_b6 = 0
         moving_piece.goto(b6_cors)
         piece_on_b6 = moving_piece
     if other_input == "b7":
+        if piece_on_b7 != 0:
+            piece_on_b7.clear()
+            piece_on_b7.hideturtle()
+            piece_on_b7 = 0
         moving_piece.goto(b7_cors)
         piece_on_b7 = moving_piece
     if other_input == "b8":
+        if piece_on_b8 != 0:
+            piece_on_b8.clear()
+            piece_on_b8.hideturtle()
+            piece_on_b8 = 0
         moving_piece.goto(b8_cors)
         piece_on_b8 = moving_piece
     if other_input == "c1":
+        if piece_on_c1 != 0:
+            piece_on_c1.clear()
+            piece_on_c1.hideturtle()
+            piece_on_c1 = 0
         moving_piece.goto(c1_cors)
         piece_on_c1 = moving_piece
     if other_input == "c2":
+        if piece_on_c2 != 0:
+            piece_on_c2.clear()
+            piece_on_c2.hideturtle()
+            piece_on_c2 = 0
         moving_piece.goto(c2_cors)
         piece_on_c2 = moving_piece
     if other_input == "c3":
+        if piece_on_c3 != 0:
+            piece_on_c3.clear()
+            piece_on_c3.hideturtle()
+            piece_on_c3 = 0
         moving_piece.goto(c3_cors)
         piece_on_c3 = moving_piece
     if other_input == "c4":
+        if piece_on_c4 != 0:
+            piece_on_c4.clear()
+            piece_on_c4.hideturtle()
+            piece_on_c4 = 0
         moving_piece.goto(c4_cors)
         piece_on_c4 = moving_piece
     if other_input == "c5":
+        if piece_on_c5 != 0:
+            piece_on_c5.clear()
+            piece_on_c5.hideturtle()
+            piece_on_c5 = 0
         moving_piece.goto(c5_cors)
         piece_on_c5 = moving_piece
     if other_input == "c6":
+        if piece_on_c6 != 0:
+            piece_on_c6.clear()
+            piece_on_c6.hideturtle()
+            piece_on_c6 = 0
         moving_piece.goto(c6_cors)
         piece_on_c6 = moving_piece
     if other_input == "c7":
+        if piece_on_c7 != 0:
+            piece_on_c7.clear()
+            piece_on_c7.hideturtle()
+            piece_on_c7 = 0
         moving_piece.goto(c7_cors)
         piece_on_c7 = moving_piece
     if other_input == "c8":
+        if piece_on_c8 != 0:
+            piece_on_c8.clear()
+            piece_on_c8.hideturtle()
+            piece_on_c8 = 0
         moving_piece.goto(c8_cors)
         piece_on_c8 = moving_piece
     if other_input == "d1":
+        if piece_on_d1 != 0:
+            piece_on_d1.clear()
+            piece_on_d1.hideturtle()
+            piece_on_d1 = 0
         moving_piece.goto(d1_cors)
         piece_on_d1 = moving_piece
     if other_input == "d2":
+        if piece_on_d2 != 0:
+            piece_on_d2.clear()
+            piece_on_d2.hideturtle()
+            piece_on_d2 = 0
         moving_piece.goto(d2_cors)
         piece_on_d2 = moving_piece
     if other_input == "d3":
+        if piece_on_d3 != 0:
+            piece_on_d3.clear()
+            piece_on_d3.hideturtle()
+            piece_on_d3 = 0
         moving_piece.goto(d3_cors)
         piece_on_d3 = moving_piece
     if other_input == "d4":
+        if piece_on_d4 != 0:
+            piece_on_d4.clear()
+            piece_on_d4.hideturtle()
+            piece_on_d4 = 0
         moving_piece.goto(d4_cors)
         piece_on_d4 = moving_piece
     if other_input == "d5":
+        if piece_on_d5 != 0:
+            piece_on_d5.clear()
+            piece_on_d5.hideturtle()
+            piece_on_d5 = 0
         moving_piece.goto(d5_cors)
         piece_on_d5 = moving_piece
     if other_input == "d6":
+        if piece_on_d6 != 0:
+            piece_on_d6.clear()
+            piece_on_d6.hideturtle()
+            piece_on_d6 = 0
         moving_piece.goto(d6_cors)
         piece_on_d6 = moving_piece
     if other_input == "d7":
+        if piece_on_d7 != 0:
+            piece_on_d7.clear()
+            piece_on_d7.hideturtle()
+            piece_on_d7 = 0
         moving_piece.goto(d7_cors)
         piece_on_d7 = moving_piece
     if other_input == "d8":
+        if piece_on_d8 != 0:
+            piece_on_d8.clear()
+            piece_on_d8.hideturtle()
+            piece_on_d8 = 0
         moving_piece.goto(d8_cors)
         piece_on_d8 = moving_piece
     if other_input == "e1":
+        if piece_on_e1 != 0:
+            piece_on_e1.clear()
+            piece_on_e1.hideturtle()
+            piece_on_e1 = 0
         moving_piece.goto(e1_cors)
         piece_on_e1 = moving_piece
     if other_input == "e2":
+        if piece_on_e2 != 0:
+            piece_on_e2.clear()
+            piece_on_e2.hideturtle()
+            piece_on_e2 = 0
         moving_piece.goto(e2_cors)
         piece_on_e2 = moving_piece
     if other_input == "e3":
+        if piece_on_e3 != 0:
+            piece_on_e3.clear()
+            piece_on_e3.hideturtle()
+            piece_on_e3 = 0
         moving_piece.goto(e3_cors)
         piece_on_e3 = moving_piece
     if other_input == "e4":
+        if piece_on_e4 != 0:
+            piece_on_e4.clear()
+            piece_on_e4.hideturtle()
+            piece_on_e4 = 0
         moving_piece.goto(e4_cors)
         piece_on_e4 = moving_piece
     if other_input == "e5":
+        if piece_on_e5 != 0:
+            piece_on_e5.clear()
+            piece_on_e5.hideturtle()
+            piece_on_e5 = 0
         moving_piece.goto(e5_cors)
         piece_on_e5 = moving_piece
     if other_input == "e6":
+        if piece_on_e6 != 0:
+            piece_on_e6.clear()
+            piece_on_e6.hideturtle()
+            piece_on_e6 = 0
         moving_piece.goto(e6_cors)
         piece_on_e6 = moving_piece
     if other_input == "e7":
+        if piece_on_e7 != 0:
+            piece_on_e7.clear()
+            piece_on_e7.hideturtle()
+            piece_on_e7 = 0
         moving_piece.goto(e7_cors)
         piece_on_e7 = moving_piece
     if other_input == "e8":
+        if piece_on_e8 != 0:
+            piece_on_e8.clear()
+            piece_on_e8.hideturtle()
+            piece_on_e8 = 0
         moving_piece.goto(e8_cors)
         piece_on_e8 = moving_piece
     if other_input == "f1":
+        if piece_on_f1 != 0:
+            piece_on_f1.clear()
+            piece_on_f1.hideturtle()
+            piece_on_f1 = 0
         moving_piece.goto(f1_cors)
         piece_on_f1 = moving_piece
     if other_input == "f2":
+        if piece_on_f2 != 0:
+            piece_on_f2.clear()
+            piece_on_f2.hideturtle()
+            piece_on_f2 = 0
         moving_piece.goto(f2_cors)
         piece_on_f2 = moving_piece
     if other_input == "f3":
+        if piece_on_f3 != 0:
+            piece_on_f3.clear()
+            piece_on_f3.hideturtle()
+            piece_on_f3 = 0
         moving_piece.goto(f3_cors)
         piece_on_f3 = moving_piece
     if other_input == "f4":
+        if piece_on_f4 != 0:
+            piece_on_f4.clear()
+            piece_on_f4.hideturtle()
+            piece_on_f4 = 0
         moving_piece.goto(f4_cors)
         piece_on_f4 = moving_piece
     if other_input == "f5":
+        if piece_on_f5 != 0:
+            piece_on_f5.clear()
+            piece_on_f5.hideturtle()
+            piece_on_f5 = 0
         moving_piece.goto(f5_cors)
         piece_on_f5 = moving_piece
     if other_input == "f6":
+        if piece_on_f6 != 0:
+            piece_on_f6.clear()
+            piece_on_f6.hideturtle()
+            piece_on_f6 = 0
         moving_piece.goto(f6_cors)
         piece_on_f6 = moving_piece
     if other_input == "f7":
+        if piece_on_f7 != 0:
+            piece_on_f7.clear()
+            piece_on_f7.hideturtle()
+            piece_on_f7 = 0
         moving_piece.goto(f7_cors)
         piece_on_f7 = moving_piece
     if other_input == "f8":
+        if piece_on_f8 != 0:
+            piece_on_f8.clear()
+            piece_on_f8.hideturtle()
+            piece_on_f8 = 0
         moving_piece.goto(f8_cors)
         piece_on_f8 = moving_piece
     if other_input == "g1":
+        if piece_on_g1 != 0:
+            piece_on_g1.clear()
+            piece_on_g1.hideturtle()
+            piece_on_g1 = 0
         moving_piece.goto(g1_cors)
         piece_on_g1 = moving_piece
     if other_input == "g2":
+        if piece_on_g2 != 0:
+            piece_on_g2.clear()
+            piece_on_g2.hideturtle()
+            piece_on_g2 = 0
         moving_piece.goto(g2_cors)
         piece_on_g2 = moving_piece
     if other_input == "g3":
+        if piece_on_g3 != 0:
+            piece_on_g3.clear()
+            piece_on_g3.hideturtle()
+            piece_on_g3 = 0
         moving_piece.goto(g3_cors)
         piece_on_g3 = moving_piece
     if other_input == "g4":
+        if piece_on_g4 != 0:
+            piece_on_g4.clear()
+            piece_on_g4.hideturtle()
+            piece_on_g4 = 0
         moving_piece.goto(g4_cors)
         piece_on_g4 = moving_piece
     if other_input == "g5":
+        if piece_on_g5 != 0:
+            piece_on_g5.clear()
+            piece_on_g5.hideturtle()
+            piece_on_g5 = 0
         moving_piece.goto(g5_cors)
         piece_on_g5 = moving_piece
     if other_input == "g6":
+        if piece_on_g6 != 0:
+            piece_on_g6.clear()
+            piece_on_g6.hideturtle()
+            piece_on_g6 = 0
         moving_piece.goto(g6_cors)
         piece_on_g6 = moving_piece
     if other_input == "g7":
+        if piece_on_g7 != 0:
+            piece_on_g7.clear()
+            piece_on_g7.hideturtle()
+            piece_on_g7 = 0
         moving_piece.goto(g7_cors)
         piece_on_g7 = moving_piece
     if other_input == "g8":
+        if piece_on_g8 != 0:
+            piece_on_g8.clear()
+            piece_on_g8.hideturtle()
+            piece_on_g8 = 0
         moving_piece.goto(g8_cors)
         piece_on_g8 = moving_piece
     if other_input == "h1":
+        if piece_on_h1 != 0:
+            piece_on_h1.clear()
+            piece_on_h1.hideturtle()
+            piece_on_h1 = 0
         moving_piece.goto(h1_cors)
         piece_on_h1 = moving_piece
     if other_input == "h2":
+        if piece_on_h2 != 0:
+            piece_on_h2.clear()
+            piece_on_h2.hideturtle()
+            piece_on_h2 = 0
         moving_piece.goto(h2_cors)
         piece_on_h2 = moving_piece
     if other_input == "h3":
+        if piece_on_h3 != 0:
+            piece_on_h3.clear()
+            piece_on_h3.hideturtle()
+            piece_on_h3 = 0
         moving_piece.goto(h3_cors)
         piece_on_h3 = moving_piece
     if other_input == "h4":
+        if piece_on_h4 != 0:
+            piece_on_h4.clear()
+            piece_on_h4.hideturtle()
+            piece_on_h4 = 0
         moving_piece.goto(h4_cors)
         piece_on_h4 = moving_piece
     if other_input == "h5":
+        if piece_on_h5 != 0:
+            piece_on_h5.clear()
+            piece_on_h5.hideturtle()
+            piece_on_h5 = 0
         moving_piece.goto(h5_cors)
         piece_on_h5 = moving_piece
     if other_input == "h6":
+        if piece_on_h6 != 0:
+            piece_on_h6.clear()
+            piece_on_h6.hideturtle()
+            piece_on_h6 = 0
         moving_piece.goto(h6_cors)
         piece_on_h6 = moving_piece
     if other_input == "h7":
+        if piece_on_h7 != 0:
+            piece_on_h7.clear()
+            piece_on_h7.hideturtle()
+            piece_on_h7 = 0
         moving_piece.goto(h7_cors)
         piece_on_h7 = moving_piece
     if other_input == "h8":
+        if piece_on_h8 != 0:
+            piece_on_h8.clear()
+            piece_on_h8.hideturtle()
+            piece_on_h8 = 0
         moving_piece.goto(h8_cors)
         piece_on_h8 = moving_piece
 
