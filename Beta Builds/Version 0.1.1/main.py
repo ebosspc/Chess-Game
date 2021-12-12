@@ -122,7 +122,7 @@ number_of_squares_on_side = number_of_squares / 8
 length_of_side = 520
 length_of_square = length_of_side / 8
 
-# Define a tracker variable for each square that indicate whether there is a piece on each square
+# Define a tracker variable for each square that stores the piece on it
 piece_on_a1 = 0
 piece_on_a2 = 0
 piece_on_a3 = 0
