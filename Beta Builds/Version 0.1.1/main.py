@@ -10,7 +10,7 @@ import welcome as welcome
 # Welcome the user to the game in the terminal
 welcome.welcome_user()
 
-# Create a variable to track whether the user wants to run the program as a developer to receive helpful debugging messages
+# Create a variable to track whether the user wants to run the program as a developer to receive debugging messages
 # It is off by default
 developer_mode = 0
 
@@ -708,7 +708,7 @@ pieces_list.append(black_king)
 if developer_mode == 1:
     print("Setting piece properties")
 
-# Set all pieces to a black fill color and prevent them from leaving tracers behind when they move or be visible as others are being created
+# Set initial piece properties
 for i in range(total_num_pieces):
     pieces_list[i].penup()
     pieces_list[i].fillcolor(pieces_fillcolor)
