@@ -825,10 +825,15 @@ for i in range(total_num_pieces):
 x = 0
 while x < 10:
     global moving_piece
+    # Grab the square for which piece the user wants to move from
     initial_input = input("On which square is the piece you want to move?: ")
+
+    # Keep grabbing squares until the user enters a valid input
     while initial_input not in possible_squares_list:
         initial_input = input("On which square is the piece you want to move?: ")
-
+    
+    # Set the moving piece variable to the chess piece object
+    # Then set the original square tracker variable to 0 as there will no longer be a piece on it
     if initial_input == "a1":
         moving_piece = piece_on_a1
         piece_on_a1 = 0
@@ -1022,10 +1027,15 @@ while x < 10:
         moving_piece = piece_on_h8
         piece_on_h8 = 0
 
+    # Grab the input from the user for which square they want to move a piece to
     other_input = input("Where do you want to move the piece to?: ")
+
+    #While loop to keep grabbing squares until the user enters a valid square
     while other_input not in possible_squares_list:
         other_input = input("Where do you want to move the piece to?: ")
 
+    # For every single square, check if there is already a piece on it
+    # If there is a piece, remove it before moving the moving piece object onto the square
     if other_input == "a1":
         if piece_on_a1 != 0:
             piece_on_a1.clear()
@@ -1660,36 +1670,38 @@ def left_pressed():
 
 
 # Call specific functions depending which key a user presses on their keyboard
-wn.onkeypress(a_pressed, "a")
-wn.onkeypress(b_pressed, "b")
-wn.onkeypress(c_pressed, "c")
-wn.onkeypress(d_pressed, "d")
-wn.onkeypress(e_pressed, "e")
-wn.onkeypress(f_pressed, "f")
-wn.onkeypress(g_pressed, "g")
-wn.onkeypress(h_pressed, "h")
-wn.onkeypress(i_pressed, "i")
-wn.onkeypress(j_pressed, "j")
-wn.onkeypress(k_pressed, "k")
-wn.onkeypress(l_pressed, "l")
-wn.onkeypress(m_pressed, "m")
-wn.onkeypress(n_pressed, "n")
-wn.onkeypress(o_pressed, "o")
-wn.onkeypress(p_pressed, "p")
-wn.onkeypress(q_pressed, "q")
-wn.onkeypress(r_pressed, "r")
-wn.onkeypress(s_pressed, "s")
-wn.onkeypress(t_pressed, "t")
-wn.onkeypress(u_pressed, "u")
-wn.onkeypress(v_pressed, "v")
-wn.onkeypress(w_pressed, "w")
-wn.onkeypress(x_pressed, "x")
-wn.onkeypress(y_pressed, "y")
-wn.onkeypress(z_pressed, "z")
-wn.onkeypress(up_pressed, "Up")
-wn.onkeypress(right_pressed, "Right")
-wn.onkeypress(down_pressed, "Down")
-wn.onkeypress(left_pressed, "Left")
+# The on keypress function can not have  a constantly updated argument,
+# So a unique function must be created for every single letter, bounded to a different function
+wn.onkeypress(a_pressed, "a") # Check for A key
+wn.onkeypress(b_pressed, "b") # Check for B key
+wn.onkeypress(c_pressed, "c") # Check for C key
+wn.onkeypress(d_pressed, "d") # Check for D key
+wn.onkeypress(e_pressed, "e") # Check for E key
+wn.onkeypress(f_pressed, "f") # Check for F key
+wn.onkeypress(g_pressed, "g") # Check for G key
+wn.onkeypress(h_pressed, "h") # Check for H key
+wn.onkeypress(i_pressed, "i") # Check for I key
+wn.onkeypress(j_pressed, "j") # Check for J key
+wn.onkeypress(k_pressed, "k") # Check for K key
+wn.onkeypress(l_pressed, "l") # Check for L key
+wn.onkeypress(m_pressed, "m") # Check for M key
+wn.onkeypress(n_pressed, "n") # Check for N key
+wn.onkeypress(o_pressed, "o") # Check for O key
+wn.onkeypress(p_pressed, "p") # Check for P key
+wn.onkeypress(q_pressed, "q") # Check for Q key
+wn.onkeypress(r_pressed, "r") # Check for R key
+wn.onkeypress(s_pressed, "s") # Check for S key
+wn.onkeypress(t_pressed, "t") # Check for T key
+wn.onkeypress(u_pressed, "u") # Check for U key
+wn.onkeypress(v_pressed, "v") # Check for V key
+wn.onkeypress(w_pressed, "w") # Check for W key
+wn.onkeypress(x_pressed, "x") # Check for X key
+wn.onkeypress(y_pressed, "y") # Check for Y key
+wn.onkeypress(z_pressed, "z") # Check for Z key
+wn.onkeypress(up_pressed, "Up") # Check for Up Arrow
+wn.onkeypress(right_pressed, "Right") # Check for Right Arrow
+wn.onkeypress(down_pressed, "Down") # Check for Down Arrow
+wn.onkeypress(left_pressed, "Left") # Check for Left Arrow
 
 # Listen for key presses
 wn.listen()
